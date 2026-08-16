@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Test / cache artifacts
+.pytest_cache/
+
+# Spark (generated locally when you run the streaming job)
+spark-warehouse/
+metastore_db/
+derby.log
+/tmp/dap-checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
